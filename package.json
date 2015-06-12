@@ -1,0 +1,24 @@
+{
+  "name": "google-play-version",
+  "version": "0.0.1",
+  "description": "Parse google play version and out as a file",
+  "main": "android_version.js",
+  "dependencies": {
+    "async": "^1.2.1",
+    "cheerio": "^0.19.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yyhuang/google-play-version.git"
+  },
+  "author": "Ya-Yu Huang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yyhuang/google-play-version/issues"
+  },
+  "homepage": "https://github.com/yyhuang/google-play-version"
+}
