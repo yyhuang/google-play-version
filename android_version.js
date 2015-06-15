@@ -32,7 +32,7 @@ async.each(list.games, function(game, callback) {
     console.dir(err);
   }
 
-  fs.writeFile('game.json', JSON.stringify(result), function(err) {
+  fs.writeFile(__dirname + '/game.json', JSON.stringify(result), function(err) {
     if (err) {
       console.dir(err);
     }
